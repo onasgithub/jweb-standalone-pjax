@@ -1,0 +1,29 @@
+{
+      "name": "jweb/pjax",
+      "description": "extended pjax",
+      "keywords": [
+            "yii",
+            "gii"
+      ],
+      "type": "yii2-extension",
+      "license": "MIT",
+      "minimum-stability": "stable",
+      "authors": [
+            {
+                  "name": "Jakub Radziwon",
+                  "email": "j.radziwon@jweb.com.pl",
+                  "homepage": "http://jweb.com.pl/"
+            }
+      ],
+      "require": {
+            "yiisoft/yii2": "2.0.*"
+      },
+      "autoload": {
+            "psr-4": {
+                  "jweb\\pjax\\": ""
+            }
+      },  
+      "extra": {
+        "bootstrap": "jweb\\pjax\\Bootstrap"
+    }
+}
